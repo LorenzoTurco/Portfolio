@@ -1,0 +1,313 @@
+$backgroud: #333;
+$text: white;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Inter:wght@200&display=swap');
+*{
+    background-color: #333;
+    color: $text;
+}  
+
+main{
+    $backgroud: #333;
+    margin: 8%;
+
+}
+
+header{
+    background-color: #333;
+    font-family: 'Cormorant';
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .my-name{
+
+    float: left;
+
+    a{
+    
+    display: block;
+    color: white;
+    padding: 1rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size:2.5rem;
+
+    .beige{
+        color:#D9BEA5;
+    }
+
+
+    }
+  }
+
+  .nav-tag {
+    float: right;
+    text-align: center;
+    
+  
+  
+   a {
+    display: block;
+    color: white;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'inter';
+    font-size:0.8rem;
+  }
+}
+
+
+.introduction-section{
+
+    margin-top: 3rem;
+
+    .title-container{
+
+        .title{
+
+            font-size:5rem;
+            font-family:'Cormorant';
+            font-style: normal;
+            font-weight:400;
+
+        }
+    }
+
+    .description-container{
+
+        width:55%;
+
+        .description{
+
+            font-family: 'inter';
+
+        }
+
+        
+    }
+
+}
+
+
+.portfolio-section{
+
+    margin-top: 3.5rem;
+
+    .portfolio-title{
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+        font-family:'Cormorant';
+        font-weight:400;
+        
+    }
+
+    @media (min-width: 800px) {
+
+    .grid-container{
+        display:grid;
+        grid-template-columns:auto auto auto;
+        background-color: #333;
+        gap:2rem;
+
+
+        .grid-item{
+            background-color: lightgrey;
+            border: 1px solid black;
+            padding:4rem;
+            font-size:1.5rem;
+            text-align:center;
+            
+            
+        }
+    }
+    }
+
+    @media (max-width: 799px) {
+
+        .grid-container{
+            display:grid;
+            grid-template-columns:auto auto ;
+            background-color: #333;
+            gap:2rem;
+    
+    
+            .grid-item{
+                background-color: lightgrey;
+                border: 1px solid black;
+                padding:4rem;
+                font-size:1.5rem;
+                text-align:center;
+                
+                
+            }
+        }
+        }
+
+    @media (max-width: 500px) {
+
+        .grid-container{
+            display:grid;
+            grid-template-columns:1fr;
+            background-color: #333;
+            padding: 10px;
+    
+    
+            .grid-item{
+                background-color: lightgrey;
+                border: 1px solid black;
+                padding:2rem;
+                font-size:1.5rem;
+                text-align:center;
+            }
+        }
+      }
+
+    
+}
+
+.about-section{
+
+    margin:5%;
+    margin-top:8rem;
+    
+
+    .about-container{
+        display:flex;
+        justify-content: space-between;
+        gap:5rem;
+
+        .about{
+
+            font-family: 'inter';
+
+        }
+
+        .about-title{
+
+            font-size: 2.5rem;
+            font-family:'Cormorant';
+            font-weight:400;
+
+        }
+
+        .image{
+            max-height:30%;
+            max-width:30%;
+        }
+    }
+}
+
+.skills-section{
+
+    margin-top: 5rem;
+    display:flex;
+    justify-content: space-between;
+    
+
+
+    .experience-container{
+
+        flex: 50%;
+
+
+
+    }
+
+    .interests-container{
+
+        flex: 50%;
+
+
+    }
+}
+
+.last-section{
+
+    margin-top: 20%;
+    text-align:center;
+
+    .title{
+
+        font-size: 4rem;
+
+    }
+
+
+      
+
+        .contact-button{
+
+            color:white;
+            border: solid 1px $text;
+            background-color: #333;
+            padding-right: 3.5rem;
+            padding-left: 3.5rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+
+
+
+        }
+    
+
+
+}
+
+footer{
+
+    background-color: lightgrey;
+
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 10rem;
+    height:7rem;
+
+    .socials{
+
+        background-color: lightgrey;
+
+       
+
+        .linkedin{
+
+            max-width:3rem;
+            max-height:3rem;
+            margin-right:1rem;
+            border-radius: 50%;
+
+        }
+
+        .github{
+
+            max-width:3rem;
+            max-height:3rem;
+            margin-right:1rem;
+            border-radius: 50%;
+
+        }
+
+        .cv{
+
+            max-width:3rem;
+            max-height:3rem;
+            border-radius: 50%;
+
+        }
+    }
+}
+
+
