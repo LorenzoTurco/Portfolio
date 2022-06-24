@@ -20,7 +20,35 @@ header{
     margin-right: 8%;
     margin-top: 5%;
 
-}
+    nav{
+
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+
+    .my-name{
+
+        float: left;
+    
+        a{
+        
+        display: block;
+        color: white;
+        padding: 1rem 1rem;
+        text-align: center;
+        text-decoration: none;
+        font-size:2.5rem;
+    
+        .beige{
+            color:#D9BEA5;
+        }
+    
+    
+        }
+      }
+
+
+
 
 ul {
     list-style-type: none;
@@ -28,47 +56,27 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-  }
 
-  .my-name{
-
-    float: left;
-
-    a{
-    
-    display: block;
-    color: white;
-    padding: 1rem 1rem;
-    text-align: center;
-    text-decoration: none;
-    font-size:2.5rem;
-
-    .beige{
-        color:#D9BEA5;
+    .nav-tag {
+        float: right;
+        text-align: center;
+        
+      
+      
+       a {
+        display: block;
+        color: white;
+        padding: 1rem 1rem;
+        text-decoration: none;
+        text-align: center;
+        font-family: 'inter';
+        font-size:1rem;
+      }
     }
-
-
-    }
-  }
-
-  .nav-tag {
-    float: right;
-    text-align: center;
-    
-  
-  
-   a {
-    display: block;
-    color: white;
-    padding: 1rem 1rem;
-    text-decoration: none;
-    text-align: center;
-    font-family: 'inter';
-    font-size:0.8rem;
   }
 }
 
-
+}
 .introduction-section{
 
     margin-top: 3rem;
@@ -103,14 +111,21 @@ ul {
 
 .portfolio-section{
 
-    margin-top: 3.5rem;
+    margin-top: 4.5rem;
 
     .portfolio-title{
         font-size: 2.75rem;
-        margin-bottom: 2.5rem;
         font-family:'Cormorant';
         font-weight:400;
+        display: inline;
+        margin-right: 1rem;
         
+        
+    }
+
+    .arrow-image{
+        max-width: 1.5rem;
+        max-height: 1.5rem;
     }
 
     @media (min-width: 800px) {
@@ -120,6 +135,7 @@ ul {
         grid-template-columns:auto auto auto;
         background-color: #333;
         gap:2rem;
+        margin-top: 3rem;
 
         .flex-items{
 
@@ -231,7 +247,7 @@ ul {
         }
         }
 
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
 
         .grid-container{
             display:grid;
