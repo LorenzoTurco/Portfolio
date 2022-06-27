@@ -1,0 +1,48 @@
+@use "variables" as *;
+
+@media only screen and (min-width: 850px){
+
+
+    .skills-section{
+    
+        margin-top: 5rem;
+        display:flex;
+        justify-content: space-between;
+        gap: 4.5rem;;
+        
+    
+    
+        .experience-container{
+    
+            flex: 50%;
+            
+    
+            .experience-title{
+    
+                font-size: 2rem;
+                font-family:$primaryFont;
+                font-weight:400;
+                margin-bottom:0rem;
+    
+            }
+    
+    
+    
+        }
+    
+        .interests-container{
+    
+            flex: 50%;
+    
+            .interest-title{
+    
+                font-size: 2rem;
+                font-family:$primaryFont;
+                font-weight:400;
+                margin-bottom:0rem;
+    
+            }
+    
+        }
+    }
+    }

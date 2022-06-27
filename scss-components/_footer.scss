@@ -1,0 +1,49 @@
+@use "variables" as *;
+
+footer{
+    background: #3B3636;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:6rem;
+    gap: 0.8rem;
+
+    figure{
+
+        display:flex;
+        height:3.5rem;
+        width:3.5rem;
+        border-radius: 50%;
+        background-color: #453F3F;
+        margin:0;
+        align-items: center;
+        justify-content: center;
+
+        .linkedin{
+         
+            max-width:1.2rem;
+            max-height:1.2rem;
+            background-color: #453F3F;
+        }
+
+        .github{
+
+           
+            max-width:1.2rem;
+            max-height:1.2rem;
+            background-color: #453F3F;
+
+
+        }
+
+        .cv{
+
+            max-width:1.4rem;
+            max-height:1.4rem;
+            background-color: #453F3F;
+
+
+        }
+    }
+}

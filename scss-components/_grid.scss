@@ -1,0 +1,227 @@
+@use "variables" as *;
+
+.portfolio-section{
+
+    margin-top: 4.5rem;
+
+    .portfolio-title{
+        font-size: 2.75rem;
+        font-family:$primaryFont;
+        font-weight:400;
+        display: inline;
+        margin-right: 1rem;
+        
+        
+    }
+
+    .arrow-image{
+        max-width: 1.5rem;
+        max-height: 1.5rem;
+    }
+
+    @media (min-width: 800px) {
+
+    .grid-container{
+        display:grid;
+        grid-template-columns:auto auto auto;
+        background-color: #333;
+        gap:2rem;
+        margin-top: 3rem;
+
+        .flex-items{
+
+            display:flex;
+            flex-direction:column;
+
+            .project-info-container{
+          
+ 
+
+                .project-name{
+
+                    font-size: 2rem;
+                    font-family:$primaryFont;
+                    font-weight:400;
+
+                    margin-top:1rem;
+                    margin-bottom:0rem;
+
+                    .icons{
+                      
+                         float: right;
+                         margin-right: 1rem;
+                         font-size:1.5rem;
+                         
+                    }
+                   
+
+                }
+
+                .tags-section{
+
+                    margin-top:1rem;
+
+                    .tag{
+                      
+                        padding-left: 1rem;
+                        padding-right:1rem;
+                        background-color: #3C3636;
+                        font-family: $secondaryFont;
+
+                    }
+
+                }
+
+            }
+
+
+        .grid-item{
+          
+            background-color: lightgrey;
+            border: 1px solid black;
+            padding:4rem;
+            font-size:1.5rem;
+            text-align:center;
+            
+            
+        }
+    }
+    }
+    }
+
+    @media (max-width: 1100px) {
+
+        .grid-container{
+            display:grid;
+            grid-template-columns:auto auto ;
+            background-color: #333;
+            gap:2rem;
+    
+            .flex-items{
+    
+                display:flex;
+                flex-direction:column;
+    
+                .project-info-container{
+     
+    
+                    .project-name{
+    
+                        font-size: 2rem;
+                        font-family:$primaryFont;
+                        font-weight:400;
+
+                        .icons{
+                      
+                            float: right;
+                            margin-right: 1.5rem;
+                            font-size:1.5rem;
+                            
+                       }
+    
+                    }
+
+                    .tags-section{
+
+                        margin-top:1rem;
+    
+                        .tag{
+                          
+                            padding-left: 1rem;
+                            padding-right:1rem;
+                            background-color: #3C3636;
+                            font-family: $secondaryFont;
+    
+                        }
+    
+                    }
+                
+    
+                }
+    
+    
+            .grid-item{
+              
+                background-color: lightgrey;
+                border: 1px solid black;
+                padding:4rem;
+                font-size:1.5rem;
+                text-align:center;
+                
+                
+            }
+        }
+        }
+        }
+
+    @media (max-width: 800px) {
+
+        .grid-container{
+            display:grid;
+            grid-template-columns:auto;
+            background-color: #333;
+            gap:2rem;
+    
+            .flex-items{
+    
+                display:flex;
+                flex-direction:column;
+    
+                .project-info-container{
+
+                    
+     
+    
+                    .project-name{
+    
+                        font-size: 2rem;
+                        font-family:$primaryFont;
+                        font-weight:400;
+
+                        .icons{
+                      
+                            float: right;
+                            margin-right: 1.5rem;
+                            margin-top: 0.5rem;
+                            font-size:1.5rem;
+                            
+                       }
+                       
+    
+                    }
+
+                    .tags-section{
+
+                        margin-top:1rem;
+    
+                        .tag{
+                          
+                            padding-left: 1rem;
+                            padding-right:1rem;
+                            background-color: #3C3636;
+                            font-family:$secondaryFont;
+    
+                        }
+    
+                    }
+                
+    
+                }
+    
+    
+            .grid-item{
+              
+                background-color: lightgrey;
+                border: 1px solid black;
+                padding:4rem;
+                font-size:1.5rem;
+                text-align:center;
+                
+                
+            }
+        }
+        }
+      }
+
+    
+}

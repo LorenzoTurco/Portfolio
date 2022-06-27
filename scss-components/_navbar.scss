@@ -1,0 +1,67 @@
+@use "variables" as *;
+
+
+header{
+    background-color: #333;
+    font-family: $primaryFont;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 5%;
+
+    nav{
+
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+
+    .my-name{
+
+        float: left;
+    
+        a{
+        
+        display: block;
+        color: white;
+        padding: 1rem 1rem;
+        text-align: center;
+        text-decoration: none;
+        font-size:2.5rem;
+    
+        .beige{
+            color:#D9BEA5;
+        }
+    
+    
+        }
+      }
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+    .nav-tag {
+        float: right;
+        text-align: center;
+        
+      
+      
+       a {
+        display: block;
+        color: white;
+        padding: 1rem 1rem;
+        text-decoration: none;
+        text-align: center;
+        font-family: $secondaryFont;
+        font-size:1rem;
+      }
+    }
+  }
+}
+
+}
