@@ -1,48 +1,82 @@
 @use "variables" as *;
 
-@media only screen and (min-width: 850px){
+//@media only screen and (min-width: 850px){
 
 
     .skills-section{
-    
         margin-top: 5rem;
         display:flex;
         justify-content: space-between;
         gap: 4.5rem;;
+        margin:5%;
         
     
+        @media (max-width: 1100px) {
+
     
-        .experience-container{
+        .skills-section__experience-container{
     
             flex: 50%;
-            
-    
-            .experience-title{
+            flex-direction:column;
+
+            .experience-container__experience-title{
     
                 font-size: 2rem;
                 font-family:$primaryFont;
                 font-weight:400;
-                margin-bottom:0rem;
     
+            }
+
+            .experience-container__dash{
+                margin-bottom:3.5rem;
+            }
+
+            .experience-container__accordion-container{
+
+                border: none;
+                font-size:1rem;
+
+
+                .accordion-container__job{
+
+
+
+
+                    .job__title-container{
+
+                        .title-container__job-title{
+                            font-family: $secondaryFont;
+                        }
+
+
+                    }
+                .job__text{
+
+                    font-family: $secondaryFont;
+                    margin-left:2rem;
+
+                }
+
+                }
+
+
+                
+
+                .accordion-container__separator{
+
+                    background-color: white;
+                }
+
+
+                
+
+
+
             }
     
     
     
         }
-    
-        .interests-container{
-    
-            flex: 50%;
-    
-            .interest-title{
-    
-                font-size: 2rem;
-                font-family:$primaryFont;
-                font-weight:400;
-                margin-bottom:0rem;
-    
-            }
-    
+
         }
-    }
     }

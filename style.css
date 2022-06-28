@@ -2,51 +2,51 @@
 .portfolio-section {
   margin-top: 4.5rem;
 }
-.portfolio-section .portfolio-title {
+.portfolio-section .portfolio-section__portfolio-title {
   font-size: 2.75rem;
   font-family: "Cormorant";
   font-weight: 400;
   display: inline;
   margin-right: 1rem;
 }
-.portfolio-section .arrow-image {
+.portfolio-section .portfolio-section__arrow-image {
   max-width: 1.5rem;
   max-height: 1.5rem;
 }
 @media (min-width: 800px) {
-  .portfolio-section .grid-container {
+  .portfolio-section .portfolio-section__grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: #333;
     gap: 2rem;
     margin-top: 3rem;
   }
-  .portfolio-section .grid-container .flex-items {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items {
     display: flex;
     flex-direction: column;
   }
-  .portfolio-section .grid-container .flex-items .project-info-container .project-name {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__project-info-container .project-info-container__project-name {
     font-size: 2rem;
     font-family: "Cormorant";
     font-weight: 400;
     margin-top: 1rem;
     margin-bottom: 0rem;
   }
-  .portfolio-section .grid-container .flex-items .project-info-container .project-name .icons {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__project-info-container .project-info-container__project-name .icons {
     float: right;
     margin-right: 1rem;
     font-size: 1.5rem;
   }
-  .portfolio-section .grid-container .flex-items .project-info-container .tags-section {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__project-info-container .project-info-container__tags-section {
     margin-top: 1rem;
   }
-  .portfolio-section .grid-container .flex-items .project-info-container .tags-section .tag {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__project-info-container .project-info-container__tags-section .tags-section__tag {
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: #3C3636;
     font-family: "inter";
   }
-  .portfolio-section .grid-container .flex-items .grid-item {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__grid-item {
     background-color: lightgrey;
     border: 1px solid black;
     padding: 4rem;
@@ -55,36 +55,36 @@
   }
 }
 @media (max-width: 1100px) {
-  .portfolio-section .grid-container {
+  .portfolio-section .portfolio-section__grid-container {
     display: grid;
     grid-template-columns: auto auto;
     background-color: #333;
     gap: 2rem;
   }
-  .portfolio-section .grid-container .flex-items {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items {
     display: flex;
     flex-direction: column;
   }
-  .portfolio-section .grid-container .flex-items .project-info-container .project-name {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__project-info-container .project-info-container__project-name {
     font-size: 2rem;
     font-family: "Cormorant";
     font-weight: 400;
   }
-  .portfolio-section .grid-container .flex-items .project-info-container .project-name .icons {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__project-info-container .project-info-container__project-name .icons {
     float: right;
     margin-right: 1.5rem;
     font-size: 1.5rem;
   }
-  .portfolio-section .grid-container .flex-items .project-info-container .tags-section {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__project-info-container .project-info-container__tags-section {
     margin-top: 1rem;
   }
-  .portfolio-section .grid-container .flex-items .project-info-container .tags-section .tag {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__project-info-container .project-info-container__tags-section .tags-section__tag {
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: #3C3636;
     font-family: "inter";
   }
-  .portfolio-section .grid-container .flex-items .grid-item {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__grid-item {
     background-color: lightgrey;
     border: 1px solid black;
     padding: 4rem;
@@ -93,37 +93,37 @@
   }
 }
 @media (max-width: 800px) {
-  .portfolio-section .grid-container {
+  .portfolio-section .portfolio-section__grid-container {
     display: grid;
     grid-template-columns: auto;
     background-color: #333;
     gap: 2rem;
   }
-  .portfolio-section .grid-container .flex-items {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items {
     display: flex;
     flex-direction: column;
   }
-  .portfolio-section .grid-container .flex-items .project-info-container .project-name {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__project-info-container .project-info-container__project-name {
     font-size: 2rem;
     font-family: "Cormorant";
     font-weight: 400;
   }
-  .portfolio-section .grid-container .flex-items .project-info-container .project-name .icons {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__project-info-container .project-info-container__project-name .icons {
     float: right;
     margin-right: 1.5rem;
     margin-top: 0.5rem;
     font-size: 1.5rem;
   }
-  .portfolio-section .grid-container .flex-items .project-info-container .tags-section {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__project-info-container .project-info-container__tags-section {
     margin-top: 1rem;
   }
-  .portfolio-section .grid-container .flex-items .project-info-container .tags-section .tag {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__project-info-container .project-info-container__tags-section .tags-section__tag {
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: #3C3636;
     font-family: "inter";
   }
-  .portfolio-section .grid-container .flex-items .grid-item {
+  .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__grid-item {
     background-color: lightgrey;
     border: 1px solid black;
     padding: 4rem;
@@ -145,10 +145,10 @@ header nav {
   justify-content: space-between;
 }
 @media (max-width: 800px) {
-  header nav .nav-tag {
+  header nav .nav-items__nav-tag {
     display: none;
   }
-  header nav .nav-image {
+  header nav .nav-item__nav-image {
     height: 3px;
     width: 3rem;
   }
@@ -169,7 +169,7 @@ header nav .my-name a {
   text-decoration: none;
   font-size: 2.5rem;
 }
-header nav .my-name a .beige {
+header nav .my-name a .my-name__beige {
   color: #D9BEA5;
 }
 header nav ul {
@@ -179,11 +179,11 @@ header nav ul {
   overflow: hidden;
   background-color: #333;
 }
-header nav ul .nav-tag {
+header nav ul .nav-items__nav-tag {
   float: right;
   text-align: center;
 }
-header nav ul .nav-tag a {
+header nav ul .nav-items__nav-tag a {
   display: block;
   color: white;
   padding: 1rem 1rem;
@@ -196,7 +196,7 @@ header nav ul .nav-tag a {
 .introduction-section {
   margin-top: 3rem;
 }
-.introduction-section .title-container .title {
+.introduction-section .introduction-section__title-container .introduction-section__title {
   font-size: 5rem;
   font-family: "Cormorant";
   font-style: normal;
@@ -224,83 +224,93 @@ header nav ul .nav-tag a {
   margin-top: 8rem;
 }
 @media only screen and (min-width: 850px) {
-  .about-section .about-container {
+  .about-section .about-section__about-container {
     display: flex;
     justify-content: space-between;
     gap: 5rem;
   }
-  .about-section .about-container .about {
-    font-family: "inter";
-  }
-  .about-section .about-container .about-title {
+  .about-section .about-section__about-container .about-container__text-section .text-section__about-title {
     font-size: 2.5rem;
     font-family: "Cormorant";
     font-weight: 400;
   }
-  .about-section .about-container .image {
+  .about-section .about-section__about-container .about-container__text-section .text-section__about {
+    font-family: "inter";
+  }
+  .about-section .about-section__about-container .about-container__image {
     max-height: 30%;
     max-width: 30%;
   }
 }
 @media only screen and (max-width: 850px) {
-  .about-section .about-container {
+  .about-section .about-section__about-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 5rem;
   }
-  .about-section .about-container .about {
-    font-family: "inter";
-  }
-  .about-section .about-container .about-title {
+  .about-section .about-section__about-container .about-container__text-section .text-section__about-title {
     font-size: 2.5rem;
     font-family: "Cormorant";
     font-weight: 400;
     margin-bottom: 0rem;
     margin-bottom: 0rem;
   }
-  .about-section .about-container .image {
-    max-height: 100%;
-    max-width: 100%;
+  .about-section .about-section__about-container .about-container__text-section .text-section__about {
+    font-family: "inter";
+  }
+  .about-section .about-section__about-container .about-container__image {
+    max-height: 60%;
+    max-width: 60%;
   }
 }
 
-@media only screen and (min-width: 850px) {
-  .skills-section {
-    margin-top: 5rem;
-    display: flex;
-    justify-content: space-between;
-    gap: 4.5rem;
-  }
-  .skills-section .experience-container {
+.skills-section {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 4.5rem;
+  margin: 5%;
+}
+@media (max-width: 1100px) {
+  .skills-section .skills-section__experience-container {
     flex: 50%;
+    flex-direction: column;
   }
-  .skills-section .experience-container .experience-title {
+  .skills-section .skills-section__experience-container .experience-container__experience-title {
     font-size: 2rem;
     font-family: "Cormorant";
     font-weight: 400;
-    margin-bottom: 0rem;
   }
-  .skills-section .interests-container {
-    flex: 50%;
+  .skills-section .skills-section__experience-container .experience-container__dash {
+    margin-bottom: 3.5rem;
   }
-  .skills-section .interests-container .interest-title {
-    font-size: 2rem;
-    font-family: "Cormorant";
-    font-weight: 400;
-    margin-bottom: 0rem;
+  .skills-section .skills-section__experience-container .experience-container__accordion-container {
+    border: none;
+    font-size: 1rem;
+  }
+  .skills-section .skills-section__experience-container .experience-container__accordion-container .accordion-container__job .job__title-container .title-container__job-title {
+    font-family: "inter";
+  }
+  .skills-section .skills-section__experience-container .experience-container__accordion-container .accordion-container__job .job__text {
+    font-family: "inter";
+    margin-left: 2rem;
+  }
+  .skills-section .skills-section__experience-container .experience-container__accordion-container .accordion-container__separator {
+    background-color: white;
   }
 }
+
 .last-section {
   margin-top: 20%;
   text-align: center;
 }
-.last-section .get-in-touch {
+.last-section .last-section__get-in-touch {
   font-size: 5.5rem;
   font-family: "Cormorant";
   font-weight: 400;
 }
-.last-section .contact-button {
+.last-section .get-in-touch__contact-button {
   color: white;
   border: solid 1px white;
   background-color: #333;

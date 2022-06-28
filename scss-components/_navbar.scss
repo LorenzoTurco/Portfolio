@@ -16,14 +16,14 @@ header{
 
         @media (max-width: 800px) {
 
-        .nav-tag{
+          .nav-items__nav-tag{
 
           display:none;
 
           
         }
 
-        .nav-image{
+        .nav-item__nav-image{
 
           height:3px;
           width:3rem;;
@@ -59,7 +59,7 @@ header{
         text-decoration: none;
         font-size:2.5rem;
     
-        .beige{
+        .my-name__beige{
             color:#D9BEA5;
         }
     
@@ -77,7 +77,7 @@ ul {
     overflow: hidden;
     background-color: #333;
 
-    .nav-tag {
+    .nav-items__nav-tag {
         float: right;
         text-align: center;
         
