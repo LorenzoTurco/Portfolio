@@ -188,11 +188,21 @@ header nav ul .nav-tag a {
   font-style: normal;
   font-weight: 400;
 }
-.introduction-section .description-container {
-  width: 55%;
+@media (max-width: 800px) {
+  .introduction-section .description-container {
+    width: 100%;
+  }
+  .introduction-section .description-container .description {
+    font-family: "inter";
+  }
 }
-.introduction-section .description-container .description {
-  font-family: "inter";
+@media (min-width: 800px) {
+  .introduction-section .description-container {
+    width: 55%;
+  }
+  .introduction-section .description-container .description {
+    font-family: "inter";
+  }
 }
 
 .about-section {
@@ -214,8 +224,8 @@ header nav ul .nav-tag a {
     font-weight: 400;
   }
   .about-section .about-container .image {
-    max-height: 50%;
-    max-width: 50%;
+    max-height: 30%;
+    max-width: 30%;
   }
 }
 @media only screen and (max-width: 850px) {

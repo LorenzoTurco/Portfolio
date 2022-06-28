@@ -16,9 +16,11 @@
         }
     }
 
+    @media (max-width: 800px) {
+
     .description-container{
 
-        width:55%;
+        width:100%;
 
         .description{
 
@@ -28,5 +30,22 @@
 
         
     }
+    }
+
+    @media (min-width: 800px) {
+
+        .description-container{
+    
+            width:55%;
+    
+            .description{
+    
+                font-family: $secondaryFont;
+    
+            }
+    
+            
+        }
+        }
 
 }
