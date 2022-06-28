@@ -272,33 +272,40 @@ header nav ul .nav-items__nav-tag a {
   gap: 4.5rem;
   margin: 5%;
 }
-@media (max-width: 1100px) {
-  .skills-section .skills-section__experience-container {
-    flex: 50%;
+@media (max-width: 900px) {
+  .skills-section {
     flex-direction: column;
   }
-  .skills-section .skills-section__experience-container .experience-container__experience-title {
-    font-size: 2rem;
-    font-family: "Cormorant";
-    font-weight: 400;
+}
+@media (min-width: 900px) {
+  .skills-section {
+    flex-direction: row;
   }
-  .skills-section .skills-section__experience-container .experience-container__dash {
-    margin-bottom: 3.5rem;
-  }
-  .skills-section .skills-section__experience-container .experience-container__accordion-container {
-    border: none;
-    font-size: 1rem;
-  }
-  .skills-section .skills-section__experience-container .experience-container__accordion-container .accordion-container__job .job__title-container .title-container__job-title {
-    font-family: "inter";
-  }
-  .skills-section .skills-section__experience-container .experience-container__accordion-container .accordion-container__job .job__text {
-    font-family: "inter";
-    margin-left: 2rem;
-  }
-  .skills-section .skills-section__experience-container .experience-container__accordion-container .accordion-container__separator {
-    background-color: white;
-  }
+}
+.skills-section .skills-section__experience-container {
+  flex: 50%;
+}
+.skills-section .skills-section__experience-container .experience-container__experience-title {
+  font-size: 2rem;
+  font-family: "Cormorant";
+  font-weight: 400;
+}
+.skills-section .skills-section__experience-container .experience-container__dash {
+  margin-bottom: 3.5rem;
+}
+.skills-section .skills-section__experience-container .experience-container__accordion-container {
+  border: none;
+  font-size: 1rem;
+}
+.skills-section .skills-section__experience-container .experience-container__accordion-container .accordion-container__job .job__title-container .title-container__job-title {
+  font-family: "inter";
+}
+.skills-section .skills-section__experience-container .experience-container__accordion-container .accordion-container__job .job__text {
+  font-family: "inter";
+  margin-left: 2rem;
+}
+.skills-section .skills-section__experience-container .experience-container__accordion-container .accordion-container__separator {
+  background-color: white;
 }
 
 .last-section {
