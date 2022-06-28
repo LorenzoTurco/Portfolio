@@ -144,6 +144,16 @@ header nav {
   align-items: center;
   justify-content: space-between;
 }
+@media (max-width: 800px) {
+  header nav .nav-tag {
+    display: none;
+  }
+}
+@media (min-width: 800px) {
+  header nav .nav-image {
+    display: none;
+  }
+}
 header nav .my-name {
   float: left;
 }
