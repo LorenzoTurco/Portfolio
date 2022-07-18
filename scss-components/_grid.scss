@@ -23,7 +23,7 @@
 
     .portfolio-section__grid-container{
         display:grid;
-        grid-template-columns:auto auto auto;
+        grid-template-columns:1fr 1fr 1fr;
         background-color: #333;
         gap:2rem;
         margin-top: 3rem;
@@ -32,6 +32,7 @@
 
             display:flex;
             flex-direction:column;
+
 
             .flex-items__project-info-container{
           
@@ -77,11 +78,19 @@
 
         .flex-items__grid-item{
           
-            background-color: lightgrey;
+            background-color: white;
             border: 1px solid black;
-            padding:4rem;
+            padding:3rem;
             font-size:1.5rem;
             text-align:center;
+
+            
+
+            .portfolio-image{
+
+
+
+            }
             
             
         }
@@ -142,11 +151,16 @@
     
             .flex-items__grid-item{
               
-                background-color: lightgrey;
+                background-color: white;
                 border: 1px solid black;
-                padding:4rem;
+                padding:3rem;
                 font-size:1.5rem;
                 text-align:center;
+
+                .portfolio-image{
+
+
+                }
                 
                 
             }
@@ -211,11 +225,17 @@
     
             .flex-items__grid-item{
               
-                background-color: lightgrey;
+                background-color: white;
                 border: 1px solid black;
-                padding:4rem;
+                padding:3rem;
                 font-size:1.5rem;
                 text-align:center;
+
+                .portfolio-image{
+
+
+                }
+                
                 
                 
             }

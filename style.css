@@ -16,7 +16,7 @@
 @media (min-width: 800px) {
   .portfolio-section .portfolio-section__grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: #333;
     gap: 2rem;
     margin-top: 3rem;
@@ -47,9 +47,9 @@
     font-family: "inter";
   }
   .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__grid-item {
-    background-color: lightgrey;
+    background-color: white;
     border: 1px solid black;
-    padding: 4rem;
+    padding: 3rem;
     font-size: 1.5rem;
     text-align: center;
   }
@@ -85,9 +85,9 @@
     font-family: "inter";
   }
   .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__grid-item {
-    background-color: lightgrey;
+    background-color: white;
     border: 1px solid black;
-    padding: 4rem;
+    padding: 3rem;
     font-size: 1.5rem;
     text-align: center;
   }
@@ -124,9 +124,9 @@
     font-family: "inter";
   }
   .portfolio-section .portfolio-section__grid-container .grid-container__flex-items .flex-items__grid-item {
-    background-color: lightgrey;
+    background-color: white;
     border: 1px solid black;
-    padding: 4rem;
+    padding: 3rem;
     font-size: 1.5rem;
     text-align: center;
   }
@@ -239,7 +239,7 @@ header nav ul .nav-items__nav-tag a {
   }
   .about-section .about-section__about-container .about-container__image {
     max-height: 30%;
-    max-width: 30%;
+    min-width: 40%;
   }
 }
 @media only screen and (max-width: 850px) {
