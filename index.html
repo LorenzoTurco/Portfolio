@@ -24,20 +24,24 @@
   </head>
 
   <header>
-    <nav>
-      <div class="my-name">
-        <a href="#">LORENZO <span class="my-name__beige">TURCO.</span></a>
+    <nav class="navbar navbar-expand-lg">
+      <div class="navbar__title">
+        <a href="#">LORENZO <span class="navbar__beige">TURCO.</span></a>
       </div>
-
-      <ul class="nav-items">
-        <li class="nav-items__nav-tag"><a href="#">About</a></li>
-        <li class="nav-items__nav-tag"><a href="#">Portfolio</a></li>
-        <li class="nav-items__nav-tag"><a href="#">Contact</a></li>
-        <li class="nav-items__nav-image-container">
-          <img class="nav-item__nav-image" src="media/dash.png" alt="dash" />
-        </li>
-      </ul>
-    </nav>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="navbar__toggle-button">
+              <div class="navbar__burger-menu-icon"></div>
+          </div>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav nav-items">
+          <li class="navbar__nav-tag"><a href="#about-section">About</a></li>
+          <li class="navbar__nav-tag"><a href="#portfolio-section">Portfolio</a></li>
+          <li class="navbar__nav-tag"><a href="#contact-section">Contact</a></li>
+     
+        </ul>
+     </div>
+      </nav>
   </header>
 
   <main>
@@ -45,239 +49,228 @@
       <div class="introduction-section__title-container">
         <h1 class="introduction-section__title">Junior Software Developer.</h1>
       </div>
-
       <img src="media/dash.png" alt="dash" />
-
-
-
-      <div class="description-container">
-        <p class="description">
+      <div id="introduction-section" class="introduction-section__description-container">
+        <p class="introduction-section__description">
           Hi, I am Lorenzo and I am working torwards becoming an accomplished software developer.
         </p>
       </div>
     </section>
 
-    <section class="portfolio-section">
+    <section id ="portfolio-section" class="portfolio-section">
       <h2 class="portfolio-section__portfolio-title">PORTFOLIO</h2>
-
       <img class="portfolio-section__arrow-image" src="media/arrow.png" alt="arrow" />
 
       <!--Each grid item has a flex column of items-->
 
       <div class="portfolio-section__grid-container">
-        <div class="grid-container__flex-items">
-          <div class="flex-items__grid-item" >
-            <img class="portfolio-image" src="./media/calculator-project.png" width="40%">
-            
+        <div class="portfolio-section__flex-items">
+          <div class="portfolio-section__grid-item" >
+            <img class="portfolio-section__portfolio-image" src="./media/calculator-project.png" width="40%">
           </div>
-          <div class="flex-items__project-info-container">
-            <h2 class="project-info-container__project-name">
+          <div class="portfolio-section__project-info-container">
+            <h2 class="portfolio-section__project-name">
               CALCULATOR
-
-              <i class="fa-solid fa-eye icons"></i>
-              <i class="fa-solid fa-code icons"></i>
+              
+              <a href="https://github.com/LorenzoTurco/Calculator"><i class="portfolio-section__icon fa-solid fa-eye"></i></a>
+              <a href="https://lorenzoturco.github.io/Calculator/"><i class="portfolio-section__icon fa-solid fa-code "></i></a>
             </h2>
             <img src="media/dash.png" alt="dash" />
 
-            <div class="project-info-container__tags-section">
-              <span class="tags-section__tag">HTML</span>
-              <span class="tags-section__tag">SCSS</span>
-              <span class="tags-section__tag">JS</span>
-              <span class="tags-section__tag">CYPRESS</span>
+            <div class="portfolio-section__tags-section">
+              <span class="portfolio-section__tag">HTML</span>
+              <span class="portfolio-sectionn__tag">SCSS</span>
+              <span class="portfolio-section__tag">JS</span>
+              <span class="portfolio-section__tag">CYPRESS</span>
 
 
             </div>
           </div>
         </div>
-        <div class="grid-container__flex-items">
-          <div class="flex-items__grid-item">
-            <img class="portfolio-image" src="./media/morse-code-project.png" width="108%">
+        <div class="portfolio-section__flex-items">
+          <div class="portfolio-section__grid-item">
+            <img class="portfolio-section__portfolio-image" src="./media/morse-code-project.png" width="109%">
 
           </div>
-          <div class="flex-items__project-info-container">
-            <h2 class="project-info-container__project-name">
-              MORSECODE
-              <i class="fa-solid fa-eye icons"></i>
-              <i class="fa-solid fa-code icons"></i>
+          <div class="portfolio-section__project-info-container">
+            <h2 class="portfolio-section__project-name">
+              MORSECODE 
+              <a href="https://github.com/LorenzoTurco/MorseCode"><i class="portfolio-section__icon fa-solid fa-eye "></i></a>
+              <a href="https://lorenzoturco.github.io/MorseCode/"><i class="portfolio-section__icon fa-solid fa-code "></i></a>
             </h2>
             <img src="media/dash.png" alt="dash" />
-
-            <div class="project-info-container__tags-section">
-              <span class="tags-section__tag">HTML</span>
-              <span class="tags-section__tag">SCSS</span>
-              <span class="tags-section__tag">JS</span>
-              <span class="tags-section__tag">JEST</span>
+            <div class="portfolio-section__tags-section">
+              <span class="portfolio-section__tag">HTML</span>
+              <span class="portfolio-section__tag">SCSS</span>
+              <span class="portfolio-section__tag">JS</span>
+              <span class="portfolio-section__tag">JEST</span>
 
             </div>
           </div>
         </div>
-        <div class="grid-container__flex-items">
-          <div class="flex-items__grid-item">
-            <img class="portfolio-image" src="./media/snakeSS.png" width="60%">
-
-
-
+        <div class="portfolio-section__flex-items">
+          <div class="portfolio-section__grid-item">
+            <img class="portfolio-section__portfolio-image" src="./media/snakeSS.png" width="60%">
           </div>
-          <div class="flex-items__project-info-container">
-            <h2 class="project-info-container__project-name">
+          <div class="portfolio-section__project-info-container">
+            <h2 class="portfolio-section__project-name">
               SNAKE GAME
-              <i class="fa-solid fa-eye icons"></i>
-              <i class="fa-solid fa-code icons"></i>
+              <a href="https://lorenzoturco.github.io/snake/"><i class="portfolio-section__icon fa-solid fa-eye "></i></a>
+              <a href="https://github.com/LorenzoTurco/snake"><i class="portfolio-section__icon fa-solid fa-code "></i></a>
             </h2>
             <img src="media/dash.png" alt="dash" />
 
-            <div class="project-info-container__tags-section">
-              <span class="tags-section__tag">HTML Canvas</span>
-              <span class="tags-section__tag">SCSS</span>
-              <span class="tags-section__tag">JS</span>
-
+            <div class="portfolio-section__tags-section">
+              <span class="portfolio-section__tag">HTML Canvas</span>
+              <span class="portfolio-section__tag">SCSS</span>
+              <span class="portfolio-section__tag">JS</span>
             </div>
           </div>
         </div>
-        <div class="grid-container__flex-items">
-          <div class="flex-items__grid-item">
+        <div class="portfolio-section__flex-items">
+          <div class="portfolio-section__grid-item">
 
           </div>
-          <div class="flex-items__project-info-container">
-            <h2 class="project-info-container__project-name">
+          <div class="portfolio-section__project-info-container">
+            <h2 class="portfolio-section__project-name">
               PROJECT 4
-              <i class="fa-solid fa-eye icons"></i>
-              <i class="fa-solid fa-code icons"></i>
+              <i class="portfolio-section__icon fa-solid fa-eye "></i>
+              <i class="portfolio-section__icon fa-solid fa-code "></i>
             </h2>
             <img src="media/dash.png" alt="dash" />
 
-            <div class="project-info-container__tags-section">
-              <span class="tags-section__tag">REACT</span>
-              <span class="tags-section__tag">CSS</span>
+            <div class="portfolio-section__tags-section">
+              <span class="portfolio-section__tag">REACT</span>
+              <span class="portfolio-section__tag">CSS</span>
             </div>
           </div>
         </div>
-        <div class="grid-container__flex-items">
-          <div class="flex-items__grid-item">
+        <div class="portfolio-section__flex-items">
+          <div class="portfolio-section__grid-item">
 
           </div>
-          <div class="flex-items__project-info-container">
-            <h2 class="project-info-container__project-name">
+          <div class="portfolio-section__project-info-container">
+            <h2 class="portfolio-section__project-name">
               PROJECT 5
-              <i class="fa-solid fa-eye icons"></i>
-              <i class="fa-solid fa-code icons"></i>
+              <i class="portfolio-section__icon icon fa-solid fa-eye "></i>
+              <i class="portfolio-section__icon fa-solid fa-code "></i>
             </h2>
             <img src="media/dash.png" alt="dash" />
 
-            <div class="project-info-container__tags-section">
-              <span class="tags-section__tag">REACT</span>
-              <span class="tags-section__tag">CSS</span>
+            <div class="portfolio-section__tags-section">
+              <span class="portfolio-section__tag">REACT</span>
+              <span class="portfolio-section__tag">CSS</span>
             </div>
           </div>
         </div>
-        <div class="grid-container__flex-items">
-          <div class="flex-items__grid-item">
+        <div class="portfolio-section__flex-items">
+          <div class="portfolio-section__grid-item">
 
           </div>
-          <div class="flex-items__project-info-container">
-            <h2 class="project-info-container__project-name">
+          <div class="portfolio-section__project-info-container">
+            <h2 class="portfolio-section__project-name">
               PROJECT 6
-              <i class="fa-solid fa-eye icons"></i>
-              <i class="fa-solid fa-code icons"></i>
+              <i class="portfolio-section__icon fa-solid fa-eye "></i>
+              <i class="portfolio-section__icon fa-solid fa-code "></i>
             </h2>
             <img src="media/dash.png" alt="dash" />
 
-            <div class="project-info-container__tags-section">
-              <span class="tags-section__tag">REACT</span>
-              <span class="tags-section__tag">CSS</span>
+            <div class="portfolio-section__tags-section">
+              <span class="portfolio-section__tag">REACT</span>
+              <span class="portfolio-section__tag">CSS</span>
             </div>
           </div>
         </div>
-        <div class="grid-container__flex-items">
-          <div class="flex-items__grid-item">         
+        <div class="portfolio-section__flex-items">
+          <div class="portfolio-section__grid-item">         
           </div>
-          <div class="flex-items__project-info-container">
-            <h2 class="project-info-container__project-name">
+          <div class="portfolio-section__project-info-container">
+            <h2 class="portfolio-section__project-name">
               PROJECT 7
-              <i class="fa-solid fa-eye icons"></i>
-              <i class="fa-solid fa-code icons"></i>
+              <i class="portfolio-section__icon fa-solid fa-eye "></i>
+              <i class="portfolio-section__icon fa-solid fa-code "></i>
             </h2>
             <img src="media/dash.png" alt="dash" />
 
-            <div class="project-info-container__tags-section">
-              <span class="tags-section__tag">REACT</span>
-              <span class="tags-section__tag">CSS</span>
+            <div class="portfolio-section__tags-section">
+              <span class="portfolio-section__tag">REACT</span>
+              <span class="portfolio-section__tag">CSS</span>
             </div>
           </div>
         </div>
-        <div class="grid-container__flex-items">
-          <div class="flex-items__grid-item">         
+        <div class="portfolio-section__flex-items">
+          <div class="portfolio-section__grid-item">         
           </div>
-          <div class="flex-items__project-info-container">
-            <h2 class="project-info-container__project-name">
+          <div class="portfolio-section__project-info-container">
+            <h2 class="portfolio-section__project-name">
               PROJECT 8
-              <i class="fa-solid fa-eye icons"></i>
-              <i class="fa-solid fa-code icons"></i>
+              <i class="portfolio-section__icon fa-solid fa-eye "></i>
+              <i class="portfolio-section__icon fa-solid fa-code "></i>
             </h2>
             <img src="media/dash.png" alt="dash" />
 
-            <div class="project-info-container__tags-section">
-              <span class="tags-section__tag">REACT</span>
-              <span class="tags-section__tag">CSS</span>
+            <div class="portfolio-section__tags-section">
+              <span class="portfolio-section__tag">REACT</span>
+              <span class="portfolio-section__tag">CSS</span>
             </div>
           </div>
         </div>
-        <div class="grid-container__flex-items">
-          <div class="flex-items__grid-item">
+        <div class="portfolio-section__flex-items">
+          <div class="portfolio-section__grid-item">
 
           </div>
-          <div class="flex-items__project-info-container">
-            <h2 class="project-info-container__project-name">
+          <div class="portfolio-section__project-info-container">
+            <h2 class="portfolio-section__project-name">
               PROJECT 9
-              <i class="fa-solid fa-eye icons"></i>
-              <i class="fa-solid fa-code icons"></i>
+              <i class="portfolio-section__icon fa-solid fa-eye "></i>
+              <i class="portfolio-section__icon fa-solid fa-code "></i>
             </h2>
             <img src="media/dash.png" alt="dash" />
 
-            <div class="project-info-container__tags-section">
-              <span class="tags-section__tag">REACT</span>
-              <span class="tags-section__tag">CSS</span>
+            <div class="portfolio-section__tags-section">
+              <span class="portfolio-section__tag">REACT</span>
+              <span class="portfolio-section__tag">CSS</span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="about-section">
+    <section id="about-section" class="about-section">
       <div class="about-section__about-container">
-        <div class="about-container__text-section">
-          <h2 class="text-section__about-title">ABOUT.</h2>
+        <div class="about-section__text-section">
+          <h2 class="about-section__about-title">ABOUT.</h2>
           <img src="media/dash.png" alt="dash" />
 
    
-          <p class="text-section__about">
+          <p class="about-section__about">
 
             As a student who majored in Computer Science, I'm eager to break into the tech sector and improve my expertise in the entire software development life cycle.
 
             <br>
             <br>
-            My Computer Science degree has helped me lay solid foundations on a wide range of industry segments ranging from big data technologies like Apache Hadoop and Spark to more high level languages like Java and Python: This has allowed me to become a more well rounded individual and ultimately a stronger asset to a business.
+            My Computer Science degree has helped me lay solid foundations on a wide range of industry segments ranging from big data technologies like Apache Hadoop and Spark to more high level languages like Java and Python. This has allowed me to become a more well rounded individual and ultimately a stronger asset to a business.
             <br>
             <br>
             I am currently advancing my knowledge in HTML, CSS, JavaScript, React, Spring Boot along with testing tools and libraries such as Jest and Cypress.
           </p>
         </div>
-        <img class="about-container__image" src="media/test-photo.jpeg" alt="profile picture" />
+        <img class="about-section__image" src="media/test-photo.jpeg" alt="profile picture" />
       </div>
     </section>
 
     <section class="skills-section">
       <div class="skills-section__experience-container">
 
-        <h2 class="experience-container__experience-title">EXPERIENCE</h2>
-        <img class="experience-container__dash" src="media/dash.png" alt="dash" />
+        <h2 class="skills-section__experience-title">EXPERIENCE</h2>
+        <img class="skills-sectionr__dash" src="media/dash.png" alt="dash" />
 
-        <div class="experience-container__accordion-container">
+        <div class="skills-section__accordion-container">
           
-          <div class="accordion-container__job">
-            <div class="job__title-container">
+          <div class="skills-section__job">
+            <div class="skills-section__title-container">
               
-              <h5 class="title-container__job-title">
+              <h5 class="skills-section__job-title">
                 Bar Staff @ Drapers Bar & Kitchen
                 <button
                   class="btn btn-link"
@@ -297,7 +290,7 @@
               aria-labelledby="headingOne"
               data-parent="#accordion"
             >
-              <div class="job__text">
+              <div class="skills-section__text">
                 - Prepared food items to meet recipes, portioning, cooking and waste control guidelines.
                 <br>
                 <br>
@@ -306,11 +299,11 @@
             </div>
           </div>
     
-          <hr class="accordion-container__separator" />
+          <hr class="skills-section__separator" />
     
-          <div class="accordion-container__job">
-            <div class="job__title-container">
-              <h5 class="title-container__job-title">
+          <div class="skills-section__job">
+            <div class="skills-section__title-container">
+              <h5 class="skills-section__job-title">
                 Java Lab Demonstrator @ QMUL
                 <button
                   class="btn btn-link "
@@ -330,7 +323,7 @@
               aria-labelledby="headingTwo"
               data-parent="#accordion"
             >
-              <div class="job__text">
+              <div class="skills-section__text">
                 - Taught and demonstrated the programming aspects for the University module ECS414U (Object-Oriented Programming) and ECS401U/ECS401A (Procedural Programming) to my allocated set of students
               <br>
               <br>
@@ -342,11 +335,11 @@
             </div>
           </div>
     
-          <hr class="accordion-container__separator" />
+          <hr class="skills-section__separator" />
     
-          <div class="accordion-container__job">
-            <div class="job__title-container">
-              <h5 class="title-container__job-title">
+          <div class="skills-section__job">
+            <div class="skills-section__title-container">
+              <h5 class="skills-section__job-title">
                 Summer Technology Intern @ MMDATA
                 <button
                   class="btn btn-link"
@@ -366,7 +359,7 @@
               aria-labelledby="headingThree"
               data-parent="#accordion"
             >
-              <div class="job__text">
+              <div class="skills-section__text">
                 - Worked closely with the business to help streamline the customer migration process from MMData software house to Danea software house.
                 <br>
                 <br>
@@ -379,30 +372,29 @@
             </div>
           </div>
     
-          <hr class="accordion-container__separator" />
+          <hr class="skills-section__separator" />
         </div>
         </div>
 
 
 
         <div class="skills-section__experience-container">
-          <h2 class="experience-container__experience-title">INTERESTS</h2>
-          <img class="experience-container__dash" src="media/dash.png" alt="dash" />
+          <h2 class="skills-section__experience-title">INTERESTS</h2>
+          <img class="skills-section__dash" src="media/dash.png" alt="dash" />
         
-        <div class="experience-container__accordion-container">
+        <div class="skills-section__accordion-container">
           
-          <div class="accordion-container__job">
-            <div class="job__title-container">
+          <div class="skills-section__job">
+            <div class="skills-section__title-container">
               
-              <h5 class="title-container__job-title">
+              <h5 class="skills-section__job-title">
                 Technology
                 <button
                   class="btn btn-link"
                   data-toggle="collapse"
                   data-target="#collapseFour"
                   aria-expanded="false"
-                  aria-controls="collapseFour"
-                >
+                  aria-controls="collapseFour">
                   <i class="fa fa fa-plus"></i>
                 </button>
               </h5>
@@ -414,17 +406,17 @@
               aria-labelledby="headingFour"
               data-parent="#accordion"
             >
-              <div class="job__text">
-                I like how instrumental technology is to society and I am always keen on learning and readiong about upcoming technology trends.
+              <div class="skills-section__text">
+                I like how instrumental technology is to society and I am always keen on learning and reading about upcoming technology trends.
               </div>
             </div>
           </div>
     
-          <hr class="accordion-container__separator" />
+          <hr class="skills-section__separator" />
     
-          <div class="accordion-container__job">
-            <div class="job__title-container">
-              <h5 class="title-container__job-title">
+          <div class="skills-section__job">
+            <div class="skills-section__title-container">
+              <h5 class="skills-section__job-title">
                 Athletics
                 <button
                   class="btn btn-link "
@@ -444,17 +436,17 @@
               aria-labelledby="headingFive"
               data-parent="#accordion"
             >
-              <div class="job__text">
+              <div class="skills-section__text">
                 I enjoy any high intensity sport related activity and I am a regular gym-goer.
               </div>
             </div>
           </div>
     
-          <hr class="accordion-container__separator" />
+          <hr class="skills-section__separator" />
     
-          <div class="accordion-container__job">
-            <div class="job__title-container">
-              <h5 class="title-container__job-title">
+          <div class="skills-section__job">
+            <div class="skills-section__title-container">
+              <h5 class="skills-section__job-title">
                 Chess
                 <button
                   class="btn btn-link"
@@ -474,27 +466,26 @@
               aria-labelledby="headingSix"
               data-parent="#accordion"
             >
-              <div class="job__text">
+              <div class="skills-section__text">
             Amateur chess player and experienced junior chess coach.
               </div>
             </div>
           </div>
     
-          <hr class="accordion-container__separator" />
+          <hr class="skills-section__separator" />
         </div>
     </section>
 
-    <section class="last-section">
+    <section id="contact-section" class="last-section">
       <h1 class="last-section__get-in-touch">Get in Touch.</h1>
-
-      <button class="get-in-touch__contact-button">CONTACT</button>
+      <a class="get-in-touch__contact-button"href="mailto:turco.lorenzo.27@gmail.com">CONTACT</a>
     </section>
   </main>
 
   <footer>
-    <figure><img class="linkedin" href="#" src="media/linkedin.png" /></figure>
-    <figure><img class="github" href="#" src="media/github.png" /></figure>
-    <figure><img class="cv" href="#" src="media/cv.png" /></figure>
+    <a href="https://www.linkedin.com/in/lorenzo-turco-841a56210/"><figure><img class="linkedin" href="#" src="media/linkedin.png" /></figure></a>
+    <a href="https://github.com/LorenzoTurco"><figure><img class="github" href="#" src="media/github.png" /></figure></a>
+    <a href=""><figure><img class="cv" href="#" src="media/cv.png" /></figure></a>
   </footer>
 </html>
 

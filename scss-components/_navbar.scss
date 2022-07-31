@@ -14,9 +14,28 @@ header{
         align-items: center;
         justify-content: space-between;
 
+        .navbar__burger-menu-icon{
+
+          width:3rem;
+          height: 5px;
+          background-color: #D9BEA5;
+        }
+
+        .navbar-collapse{
+          justify-content: flex-end;
+        }
+
+        .navbar-nav{
+          align-items: flex-start;
+          margin-left: 1rem;
+
+
+        }
+
+
         @media (max-width: 800px) {
 
-          .nav-items__nav-tag{
+          .navbar__nav-tag{
 
           display:none;
         }
@@ -42,7 +61,7 @@ header{
 
 
 
-    .my-name{
+    .navbar__title{
 
         float: left;
     
@@ -55,7 +74,7 @@ header{
         text-decoration: none;
         font-size:2.5rem;
     
-        .my-name__beige{
+        .navbar__beige{
             color:#D9BEA5;
         }
     
@@ -73,7 +92,7 @@ ul {
     overflow: hidden;
     background-color: #333;
 
-    .nav-items__nav-tag {
+    .navbar__nav-tag {
         float: right;
         text-align: center;
         

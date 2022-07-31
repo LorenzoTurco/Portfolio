@@ -1,8 +1,5 @@
 @use "variables" as *;
 
-
-        
-
     .skills-section{
         margin-top: 5rem;
         display:flex;
@@ -16,18 +13,14 @@
         flex-direction:row;
     }
     
-
         justify-content: space-between;
         gap: 4.5rem;;
         margin:5%;
         
-    
-
-    
         .skills-section__experience-container{
     
             flex: 50%;
-            .experience-container__experience-title{
+            .skills-section__experience-title{
     
                 font-size: 2rem;
                 font-family:$primaryFont;
@@ -35,56 +28,36 @@
     
             }
 
-            .experience-container__dash{
+            .skills-section__dash{
                 margin-bottom:3.5rem;
             }
 
-            .experience-container__accordion-container{
+            .skills-section__accordion-container{
 
                 border: none;
                 font-size:1rem;
 
 
-                .accordion-container__job{
+                .skills-section__job{
 
+                    .skills-section__title-container{
 
-
-
-                    .job__title-container{
-
-                        .title-container__job-title{
+                        .skills-section__job-title{
                             font-family: $secondaryFont;
                         }
 
 
                     }
-                .job__text{
+                .skills-section__text{
 
                     font-family: $secondaryFont;
                     margin-left:2rem;
 
-                }
+                }}
 
-                }
-
-
-                
-
-                .accordion-container__separator{
+                .skills-section__separator{
 
                     background-color: white;
                 }
-
-
-                
-
-
-
-            }
-    
-    
-    
-        }
-
-        }
+            }}}
     

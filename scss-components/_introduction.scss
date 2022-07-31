@@ -18,11 +18,11 @@
 
     @media (max-width: 800px) {
 
-    .description-container{
+    .introduction-section__description-container{
 
         width:100%;
 
-        .description{
+        .introduction-section__description{
 
             font-family: $secondaryFont;
 
@@ -34,11 +34,11 @@
 
     @media (min-width: 800px) {
 
-        .description-container{
+        .introduction-section__description-container{
     
             width:55%;
     
-            .description{
+            .introduction-section__description{
     
                 font-family: $secondaryFont;
     

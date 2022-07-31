@@ -28,17 +28,17 @@
         gap:2rem;
         margin-top: 3rem;
 
-        .grid-container__flex-items{
+        .portfolio-section__flex-items{
 
             display:flex;
             flex-direction:column;
 
 
-            .flex-items__project-info-container{
+            .portfolio-section__project-info-container{
           
  
 
-                .project-info-container__project-name{
+                .portfolio-section__project-name{
 
                     font-size: 2rem;
                     font-family:$primaryFont;
@@ -47,22 +47,25 @@
                     margin-top:1rem;
                     margin-bottom:0rem;
 
-                    .icons{
+                    .portfolio-section__icon{
                       
                          float: right;
                          margin-right: 1rem;
                          font-size:1.5rem;
+                         background-color:#3C3636;
+                         padding:0.5rem;
+                         border-radius: 50%;;
                          
                     }
                    
 
                 }
 
-                .project-info-container__tags-section{
+                .portfolio-section__tags-section{
 
                     margin-top:1rem;
 
-                    .tags-section__tag{
+                    .portfolio-section__tag{
                       
                         padding-left: 1rem;
                         padding-right:1rem;
@@ -76,7 +79,7 @@
             }
 
 
-        .flex-items__grid-item{
+        .portfolio-section__grid-item{
           
             background-color: white;
             border: 1px solid black;
@@ -106,21 +109,21 @@
             background-color: #333;
             gap:2rem;
     
-            .grid-container__flex-items{
+            .portfolio-section__flex-items{
     
                 display:flex;
                 flex-direction:column;
     
-                .flex-items__project-info-container{
+                .portfolio-section__project-info-container{
      
     
-                    .project-info-container__project-name{
+                    .portfolio-section__project-name{
     
                         font-size: 2rem;
                         font-family:$primaryFont;
                         font-weight:400;
 
-                        .icons{
+                        .portfolio-section__icon{
                       
                             float: right;
                             margin-right: 1.5rem;
@@ -130,11 +133,11 @@
     
                     }
 
-                    .project-info-container__tags-section{
+                    .portfolio-section__tags-section{
 
                         margin-top:1rem;
     
-                        .tags-section__tag{
+                        .portfolio-section__tag{
                           
                             padding-left: 1rem;
                             padding-right:1rem;
@@ -149,7 +152,7 @@
                 }
     
     
-            .flex-items__grid-item{
+            .portfolio-section__grid-item{
               
                 background-color: white;
                 border: 1px solid black;
@@ -176,23 +179,23 @@
             background-color: #333;
             gap:2rem;
     
-            .grid-container__flex-items{
+            .portfolio-section__flex-items{
     
                 display:flex;
                 flex-direction:column;
     
-                .flex-items__project-info-container{
+                .portfolio-section__project-info-container{
 
                     
      
     
-                    .project-info-container__project-name{
+                    .portfolio-section__project-name{
     
                         font-size: 2rem;
                         font-family:$primaryFont;
                         font-weight:400;
 
-                        .icons{
+                        .portfolio-section__icon{
                       
                             float: right;
                             margin-right: 1.5rem;
@@ -204,11 +207,11 @@
     
                     }
 
-                    .project-info-container__tags-section{
+                    .portfolio-section__tags-section{
 
                         margin-top:1rem;
     
-                        .tags-section__tag{
+                        .portfolio-section__tag{
                           
                             padding-left: 1rem;
                             padding-right:1rem;
@@ -223,7 +226,7 @@
                 }
     
     
-            .flex-items__grid-item{
+            .portfolio-section__grid-item{
               
                 background-color: white;
                 border: 1px solid black;
