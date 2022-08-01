@@ -51,7 +51,7 @@
                       
                          float: right;
                          margin-right: 1rem;
-                         font-size:1.5rem;
+                         font-size:1rem;
                          background-color:#3C3636;
                          padding:0.5rem;
                          border-radius: 50%;;
@@ -86,22 +86,14 @@
             padding:3rem;
             font-size:1.5rem;
             text-align:center;
+            height:100%;
 
-            
-
-            .portfolio-image{
-
-
-
-            }
-            
-            
         }
     }
     }
     }
 
-    @media (max-width: 1100px) {
+    @media (max-width: 1200px) {
 
         .portfolio-section__grid-container{
             display:grid;
@@ -127,7 +119,7 @@
                       
                             float: right;
                             margin-right: 1.5rem;
-                            font-size:1.5rem;
+                            font-size:1rem;
                             
                        }
     
@@ -159,13 +151,8 @@
                 padding:3rem;
                 font-size:1.5rem;
                 text-align:center;
+                height:100%;
 
-                .portfolio-image{
-
-
-                }
-                
-                
             }
         }
         }
@@ -186,9 +173,6 @@
     
                 .portfolio-section__project-info-container{
 
-                    
-     
-    
                     .portfolio-section__project-name{
     
                         font-size: 2rem;
@@ -200,11 +184,8 @@
                             float: right;
                             margin-right: 1.5rem;
                             margin-top: 0.5rem;
-                            font-size:1.5rem;
-                            
+                            font-size:1.5rem; 
                        }
-                       
-    
                     }
 
                     .portfolio-section__tags-section{
@@ -217,14 +198,10 @@
                             padding-right:1rem;
                             background-color: #3C3636;
                             font-family:$secondaryFont;
-    
                         }
-    
-                    }
-                
+                    }           
     
                 }
-    
     
             .portfolio-section__grid-item{
               
@@ -233,13 +210,7 @@
                 padding:3rem;
                 font-size:1.5rem;
                 text-align:center;
-
-                .portfolio-image{
-
-
-                }
-                
-                
+                height:100%;
                 
             }
         }

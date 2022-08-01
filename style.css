@@ -35,7 +35,7 @@
   .portfolio-section .portfolio-section__grid-container .portfolio-section__flex-items .portfolio-section__project-info-container .portfolio-section__project-name .portfolio-section__icon {
     float: right;
     margin-right: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color: #3C3636;
     padding: 0.5rem;
     border-radius: 50%;
@@ -55,9 +55,10 @@
     padding: 3rem;
     font-size: 1.5rem;
     text-align: center;
+    height: 100%;
   }
 }
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .portfolio-section .portfolio-section__grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -76,7 +77,7 @@
   .portfolio-section .portfolio-section__grid-container .portfolio-section__flex-items .portfolio-section__project-info-container .portfolio-section__project-name .portfolio-section__icon {
     float: right;
     margin-right: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .portfolio-section .portfolio-section__grid-container .portfolio-section__flex-items .portfolio-section__project-info-container .portfolio-section__tags-section {
     margin-top: 1rem;
@@ -93,6 +94,7 @@
     padding: 3rem;
     font-size: 1.5rem;
     text-align: center;
+    height: 100%;
   }
 }
 @media (max-width: 800px) {
@@ -132,6 +134,7 @@
     padding: 3rem;
     font-size: 1.5rem;
     text-align: center;
+    height: 100%;
   }
 }
 
